@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Aula1</title>
+<link href="Aula1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div>
+<p align="center" id="text1">Trabalho de Desenvolvimento Web&nbsp;</p>
+</div>
+	<div align="center"><img src="../../Imagens/Dedo.jpeg" width="612" height="379" alt=""/></div>
+</body>
+<script>
+	
+	if (document.addEventListener) {
+    document.addEventListener("DOMContentLoaded", function() {
+        loaded();
+    });
+} else if (document.attachEvent) {
+    document.attachEvent("onreadystatechange", function() {
+        loaded();
+    });
+}
+
+function loaded() {
+    setInterval(loop, 300);
+}
+var x = 0;
+
+var titleText = [ 
+   "B",
+   "Be",
+   "Bem",
+   "Bem-",
+   "Bem-V",
+   "Bem-Vi",
+   "Bem-Vin",
+   "Bem-Vind",
+   "Bem-Vindo!",
+        
+
+];
+
+function loop() {
+
+    document.getElementsByTagName("title")[0].innerHTML = titleText[x++%titleText.length];
+
+}
+	
+</script>
+</html>
