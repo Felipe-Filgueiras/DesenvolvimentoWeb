@@ -1,0 +1,15 @@
+https://www.python.org/downloads/
+
+Linguagem de programação versátil, deve ser usado como base de servidor para desenvolvimento na matéria.
+
+https://desktop.github.com/
+
+Organização e compartilhamento de arquivos e códigos relacionados a disciplina.
+
+https://code.visualstudio.com/download
+
+IDE para desenvolver os trabalhos propostos na disciplina.
+
+Navegadores:
+
+Usados para visualizar as páginas criadas e aprender mais sobre os conteudos propostos.
