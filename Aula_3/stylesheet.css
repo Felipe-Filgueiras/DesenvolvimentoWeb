@@ -1,0 +1,8 @@
+#video-container {
+    width: 50%; /* Set your desired width */
+    height: 50%; /* Set your desired height */
+}
+.centered-div {
+    text-align: center;
+
+}
